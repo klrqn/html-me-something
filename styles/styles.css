@@ -1,0 +1,62 @@
+html {
+    margin: 0;
+    padding: 15;
+    background: #B9B9B9;
+    }
+
+body {
+    font: 90%  times, sans-serif;
+    line-height: 1.8888;
+    color: #f0f5f5
+   /* background-color: #f0f5f5 */
+    margin: 0;
+    }
+
+/* Top Nav Style */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+/* End Top Nav Style */
+
+figcaption {
+
+}
+
+div {
+    padding: 40px;
+    margin: auto;
+    display: block;
+    width: 40%;
+    }
+
+div.second {
+    display: block;
+    background-color: #b3b3e6;
+    margin: 20px;
+    padding: 40px;
+    align: center;
+    border-style: none;
+    border-left: 6px solid blue;
+    }
