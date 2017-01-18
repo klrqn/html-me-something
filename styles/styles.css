@@ -132,3 +132,25 @@ div.second {
     width: 400px;
     border-left: 6px solid blue;
     }
+
+footer {
+    background-color: #333333;
+    color: white;
+    font-family: comic-sans;
+    width: 30%;
+    margin: auto;
+    padding: 40px;
+
+    }
+
+footer p a {
+    color: red;
+    }
+
+footer p a:hover {
+    color: green;
+    }
+
+footer p {
+    color: #999999;
+    }
