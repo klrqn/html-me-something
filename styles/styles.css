@@ -27,6 +27,22 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+
 }
 body {
 	line-height: 1;
@@ -113,8 +129,12 @@ li a:hover {
 
 figcaption {
     text-align: justify;
-    width: 400px;
+    width: 600px;
 }
+
+.second figcaption {
+    width: 380px;
+    }
 
 div {
     padding: 40px;
@@ -154,3 +174,23 @@ footer p a:hover {
 footer p {
     color: #999999;
     }
+
+.column {
+    width: 90%;
+    height: 2px;
+    background-color: blue;
+    display: block;
+    margin: auto;
+    padding: 6px;
+    }
+
+.column2 {
+    width: 80%;
+    height: 2px;
+    background-color: dark-blue;
+    margin: inline;
+    padding: 6px;
+    box-sizing: border-box;
+    flex: 1 0 auto;
+    }
+
