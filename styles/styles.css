@@ -192,5 +192,14 @@ footer p {
     padding: 6px;
     box-sizing: border-box;
     flex: 1 0 auto;
+    color: white;
     }
 
+#this-is-specific {
+    padding: 20px;
+    font-size: 0.9em;
+    color: blue;
+    display; block;
+    margin; auto;
+    text-align: right;
+    }
